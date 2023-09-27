@@ -1,0 +1,64 @@
+/* Gaya untuk jumbotron */
+.jumbotron {
+   background-color: #f8f9fa; /* Warna latar belakang */
+   padding: 60px;
+   border-radius: 0; /* Membuang border radius default Bootstrap */
+   background-image: url('img/pantai.jpg');
+   background-attachment: fixed;
+   color: white;
+   background-size: cover;
+   background-position: 0 -50px;
+   height: 450px;
+   padding-bottom: 550px;
+   text-shadow: 100px;
+}
+
+/* Gaya untuk teks di dalam jumbotron */
+.jumbotron h1 {
+   font-size: 36px;
+   font-weight: bold;
+   color: #333;
+}
+
+.jumbotron p {
+   font-size: 18px;
+   color: #555;
+}
+
+/* Gaya untuk bagian "About" */
+#about {
+   background-color: #fff; /* Warna latar belakang */
+   padding: 60px 0;
+}
+
+#about h2 {
+   font-size: 32px;
+   font-weight: bold;
+   color: #333;
+}
+
+#about p {
+   font-size: 16px;
+   color: #555;
+}
+
+/* Gaya untuk bagian "Paket Wisata" */
+#Paket {
+   background-color: #f8f9fa; /* Warna latar belakang */
+   padding: 60px 0;
+}
+
+#Paket h2 {
+   font-size: 32px;
+   font-weight: bold;
+   color: #333;
+}
+
+.card {
+   border: none; /* Menghapus border pada card */
+}
+
+.card-text {
+   font-size: 16px;
+   color: #555;
+}
