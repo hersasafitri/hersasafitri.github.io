@@ -1,0 +1,28 @@
+<!-- Form Input -->
+<section class="container">
+    <h2>Input Data Wisata</h2>
+    <form action="crud.php" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="nama_wisata">Nama Wisata:</label>
+            <input type="text" id="nama_wisata" name="nama_wisata" required>
+        </div>
+        <div class="form-group">
+            <label for="deskripsi">Deskripsi:</label>
+            <textarea id="deskripsi" name="deskripsi" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="lokasi">Lokasi:</label>
+            <input type="text" id="lokasi" name="lokasi" required>
+        </div>
+        <div class="form-group">
+            <label for="file_upload">Upload File:</label>
+            <input type="file" id="file_upload" name="file_upload" required>
+        </div>
+        <div class="form-group">
+            <label for="gambar">Gambar Wisata:</label>
+            <input type="file" id="gambar" name="gambar" accept="image/*">
+        </div>
+        
+        <button type="submit" name="tambah">Tambah</button>
+    </form>
+</section>
